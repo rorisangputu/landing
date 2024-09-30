@@ -63,7 +63,12 @@ html {
     
   }
 } */
-
+@media (min-height: 1200px) {
+  .bg-fixed-center-cover {
+    background-size: 100% auto;
+    /* Ensures it covers the entire height */
+  }
+}
 @media (min-width: 1024px) {
   .bg-fixed-center-cover {
     background-image: url('/src/assets/deskbgnew.webp');
