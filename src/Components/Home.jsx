@@ -3,7 +3,7 @@ import cover from '../assets/albumcover.jpg';
 import Huntersxwarner from './Huntersxwarner';
 const Home = () => {
     return (
-        <div className='bg-fixed-center-cover fixed top-0 left-0 w-full h-full overflow-hidden py-20'>
+        <div className='bg-fixed-center-cover ixed top-0 left-0 w-full h-full overflow-hidden py-20'>
             <div className='w-[90%] mx-auto h-full flex justify-center items-center'>
                 <div className='fixed inset-0 z-0 lg:hidden'><Huntersxwarner /></div>
                 <div className='flex abosolute overflow-y-auto z-10 flex-col lg:flex-row gap-5 justify-center items-center'>
